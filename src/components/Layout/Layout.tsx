@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Counter } from "../../store/features/counter/Counter";
+import Counter from "../Counter/Counter";
 import Header from "../Header/Header";
 
 const StyledContainer = styled.div`
