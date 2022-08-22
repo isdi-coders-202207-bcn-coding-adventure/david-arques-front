@@ -1,6 +1,8 @@
+import { CounterSectionStyled } from "./CounterStyled";
+
 const Counter = (): JSX.Element => {
   return (
-    <section className="counter">
+    <CounterSectionStyled className="counter">
       <div className="counter__container">
         <div className="counter__number">02</div>
         <span className="counter__text">days</span>
@@ -17,7 +19,7 @@ const Counter = (): JSX.Element => {
         <div className="counter__number">09</div>
         <span className="counter__text">seconds</span>
       </div>
-    </section>
+    </CounterSectionStyled>
   );
 };
 export default Counter;
