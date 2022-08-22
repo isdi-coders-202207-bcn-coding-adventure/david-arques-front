@@ -20,3 +20,4 @@ const Counter = (): JSX.Element => {
     </section>
   );
 };
+export default Counter;
