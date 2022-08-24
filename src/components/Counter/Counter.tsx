@@ -1,10 +1,11 @@
-import { keyDate } from "../../data/counter";
+import { keyDate } from "../../data/keyDate";
 import useCounter from "../../hooks/useCounter";
 import { CounterSectionStyled } from "./CounterStyled";
 
 const Counter = (): JSX.Element => {
-  const date: Date = new Date(keyDate);
+  const date: Date = keyDate;
   const [days, hours, minutes, seconds] = useCounter(date);
+
   if (days + hours + minutes + seconds <= 0) {
     return <h1>Sa acabat</h1>;
   } else {
