@@ -5,12 +5,13 @@ const CounterSectionStyled = styled.section`
   gap: 30px;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  position: absolute;
+  top: 25%;
   .counter {
     &__number {
       background-color: #fac204;
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
       border-radius: 50px;
       font-size: 6em;
       color: #243444;
@@ -30,4 +31,4 @@ const CounterSectionStyled = styled.section`
     }
   }
 `;
-export { CounterSectionStyled };
+export default CounterSectionStyled;
